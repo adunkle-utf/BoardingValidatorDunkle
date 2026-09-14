@@ -37,7 +37,7 @@ if (sizeInput == "large" && countInput >= 3) {
     // Status data
     status = "REJECTED";
     // Prepare rejection message
-    rejectionMessage = $"Maximum 2 large animals allowed.  You requested {countInput}";
+    rejectionMessage = $"Maximum 2 large animals allowed.  You requested {countInput}.";
 
 } else if (sizeInput == "large" && countInput <= 2) {
     
@@ -50,7 +50,7 @@ if (sizeInput == "large" && countInput >= 3) {
     // Status data
     status = "REJECTED";
     // Prepare rejection message
-    rejectionMessage = $"Maximum 10 medium animals allowed.  You requested {countInput}";
+    rejectionMessage = $"Maximum 10 medium animals allowed.  You requested {countInput}.";
 
 } else if (sizeInput == "medium" && countInput <= 10) {
 
@@ -63,7 +63,7 @@ if (sizeInput == "large" && countInput >= 3) {
     // Status data
     status = "REJECTED";
     // Prepare rejection message
-    rejectionMessage = $"Maximum 10 medium animals allowed.  You requested {countInput}";
+    rejectionMessage = $"Maximum 10 medium animals allowed.  You requested {countInput}.";
 
 } else if (sizeInput == "small" && countInput <= 50) {
 
